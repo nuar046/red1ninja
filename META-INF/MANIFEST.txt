@@ -1,0 +1,1 @@
+Service-Component: OSGI-INF/NI_MigrateSetupDocEvent.xml,OSGI-INF/NI_MigrateSetupModelFactory.xml

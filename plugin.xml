@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<extension id="org.my.process.ImportModel"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.ninja.process.ImportModel">
+	</process>
+</extension>
+<extension id="org.my.process.GenerateModule"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.ninja.process.GenerateModule">
+	</process>
+</extension>
+<extension id="org.my.process.DeleteModel"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.ninja.process.DeleteModel">
+	</process>
+</extension>
+<extension id="org.my.process.ProductAccts"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.ninja.process.ProductAccts">
+	</process>
+</extension>
+<extension id="org.ninja.process.MigrateExcelData"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.ninja.process.MigrateExcelData">
+	</process>
+</extension>
+<extension id="org.ninja.process.ExcelNinja"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.ninja.process.ExcelNinja">
+	</process>
+</extension>
+<extension id="org.ninja.process.NinjaExporter"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.ninja.process.NinjaExporter">
+	</process>
+</extension>
+</plugin>

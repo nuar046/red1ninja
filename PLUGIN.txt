@@ -1,0 +1,6 @@
+<extension id="org.my.process.MigrateExcelData"
+  point="org.adempiere.base.Process">
+	<process
+		class="org.my.process.MigrateExcelData">
+	</process>
+</extension>
